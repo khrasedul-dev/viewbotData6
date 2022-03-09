@@ -25,7 +25,7 @@ const newSchema = new mongoose.Schema({
     }
 },{versionKey: false})
 
-const User = mongoose.model('user',newSchema)
+const User = mongoose.model('withdrawl',newSchema)
 
 const app = express();
 
